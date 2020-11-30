@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Handle .DS_Store
+.DS_Store
+# Ignore config.py file
+config.py
+# Ignore practice files 
+API_practice.ipynb
+random_numbers.ipynb
+CopyofWeatherPy.ipynb
