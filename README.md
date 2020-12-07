@@ -1,2 +1,16 @@
-# World_Weather_Analysis
-Analyse weather data for countries around the world to plan for a trip.
+# **World_Weather_Analysis**
+- Analyse weather data for countries around the world to plan for a trip using API calls to OpenWeatherMap and gMaps. 
+- Using Pandas came up with 2000 random latitude - longitude pairs across the world. 
+- Use the latitude-longitude pairs to get closest city and get the desired weather data from OpenWeatherMap API response. Achieved to get atleast 500 cities from 2000 lat-long pairs.
+- The jupyter notebook script file for the above can be found at this link : <a href="https://github.com/VinuthaBS/World_Weather_Analysis/blob/main/Weather_Database/Weather_Database.ipynb">------> Retrieve Weather data script file</a>
+---
+- Take the input from user to understand the Max and Min temp enjoyed by the user to filter the list of cities that fall under max and min temp.
+- Pass the preferred list of cities to gMaps API to retrieve Hotel information for the cities.
+- Plot a marker layer map with markers with hotel name along with other basic info of the city for each city for all preferred cities.
+-  The jupyter notebook script file for the above can be found at this link : <a href="https://github.com/VinuthaBS/World_Weather_Analysis/blob/main/Vacation_Search/Vacation_Search.ipynb">------> Customer Travel Destinations Map script file</a>
+---
+- From the marker layer map, allow the user to pick 4 cities for a round about trip within a single country.
+- Passing the info of the selected 4 cities to gMaps Directions API, plot a directions layer map.
+- Plot a marker layer map with pop-up marker for each of these 4 cities.
+- The jupyter notebook script file for the above can be found at this link : <a href="https://github.com/VinuthaBS/World_Weather_Analysis/blob/main/Vacation_Itinerary/Vacation_Itinerary.ipynb">------> Travel Itinerary Map script file</a>
+---
